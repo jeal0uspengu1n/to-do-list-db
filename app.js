@@ -73,6 +73,6 @@ app.post("/delete", function(req,res){
   res.redirect("/");
 });
 
-app.listen(6969,function(req,res){
+app.listen(process.env.PORT || 6969,function(req,res){
   // console.log("works bitchhh");
 })
