@@ -7,7 +7,7 @@ const app=express();
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-mongoose.connect('mongodb+srv://jeal0uspengu1n:788356001@cluster1.ypnv0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+mongoose.connect('mongodb+srv://groot:mnbvcxz@cluster1.ypnv0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 // , {useNewUrlParser: true}
 );
 
